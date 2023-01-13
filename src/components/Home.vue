@@ -173,7 +173,7 @@ section {
   animation-delay: 0.7s;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 400px) and (max-width: 720px) {
   img {
     width: 23rem;
     margin-left: 0rem;
@@ -223,55 +223,7 @@ section {
     padding-bottom: 3rem;
   }
 }
-@media screen and (max-width: 1080px) {
-  img {
-    margin-left: 0rem;
-  }
-  .social {
-    right: 0.01%;
-  }
-  
-  .social a {
-    font-size: 2rem;
-    width: 4rem;
-    height: 4rem;
-    margin-top: 0rem;
-    padding: 2rem;
-  }
-  
-  .home {
-    height: 50rem;
-    margin-left: 0rem;
-  }
-  .home .home-cont {
-    margin: 0rem;
-  }
-  
-  .home .home-cont .texty {
-    font-size: 3rem;
-    font-weight: 600;
-  }
-  
-  .home .home-cont .delay-1 {
-    font-size: 4rem;
-    font-weight: 600;
-  }
-  
-  .home .home-cont .delay-2 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-top: 2rem 0;
-  }
-  
-  .home .home-cont .texty span {
-    font-size: 4rem;
-  }
-  
-  section {
-    padding: 5rem;
-    padding-bottom: 3rem;
-  }
-}
+
 
 @media screen and (max-width: 300px) {
   img {
@@ -320,7 +272,7 @@ section {
     padding-bottom: 3rem;
   }
 }
-@media screen and (max-width: 1092px) {
+@media screen and (min-width: 721px) and (max-width: 1092px) {
   img {
     width: 50rem;
   }
