@@ -1,26 +1,5 @@
 <template>
-  <div>
-    <!-- <div class="scroll-up-btn">
-      <i class="fas fa-angle-up"></i>
-    </div> -->
-    <!-- <nav class="nav-area">
-      <div class="content">
-        <div class="logo">
-          <a href="#">Portfo<span>lio.</span></a>
-        </div>
-        <ul class="navbar">
-          <li><router-link to="/">Home</router-link> </li>
-          <li><router-link to="/about">About</router-link></li>
-          <li><router-link to="/projects">Projects</router-link></li>
-          <li><router-link to="/testimonials">Testimonials</router-link></li>
-          <li><router-link to="/resume">Resume</router-link></li>
-          <li><router-link to="/contact">Contact</router-link></li>
-        </ul>
-        <div class="menu-btn">
-          <i class="fas fa-bars"></i>
-        </div>
-      </div>
-    </nav> -->
+  <div> 
     <nav
       class="navbar navbar-expand-lg"
       style="background-color: rgb(222, 191, 181)"

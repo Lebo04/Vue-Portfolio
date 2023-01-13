@@ -236,7 +236,7 @@ export default {
   border-radius: 1rem;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 420px) {
   .resume {
     flex-direction: column;
   }
@@ -317,7 +317,7 @@ export default {
     padding: 2rem 1rem;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 421px) and (max-width: 720px) {
   .resume {
     flex-direction: column;
   }
@@ -398,7 +398,7 @@ export default {
     padding: 2rem 1rem;
   }
 }
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 721px) and (max-width: 1280px) {
   .title {
     font-size: 3rem;
     font-weight: 600;

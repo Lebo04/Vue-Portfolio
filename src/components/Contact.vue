@@ -294,7 +294,7 @@ input {
   color: #111;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 420px) {
   .we h2 {
     font-size: 2rem;
   }
@@ -356,7 +356,7 @@ input {
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 421px) and (max-width: 720px) {
   .we h2 {
     font-size: 3.5rem;
   }
@@ -411,25 +411,25 @@ input {
     font-size: 1.1rem;
   }
 }
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 721px) and (max-width: 1280px) {
   .we h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .we a {
-    font-size: 2.5rem;
-    padding: 1rem;
+    font-size: 2.7rem;
+    padding: 2rem;
   }
 
   input {
     margin-bottom: 1rem;
-    width: 23rem;
-    height: 3rem;
+    width: 30rem;
+    height: 4rem;
   }
 
   textarea {
-    width: 23rem;
-    height: 9rem;
+    width: 30rem;
+    height: 11rem;
   }
 
   .cont {
@@ -437,14 +437,14 @@ input {
   }
 
   .cont .title {
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-weight: 600;
     margin-bottom: 3rem;
     padding-bottom: 1rem;
   }
 
   section .title::before {
-    width: 21rem;
+    width: 22rem;
   }
 
   .contact {
@@ -452,25 +452,26 @@ input {
   }
 
   .contact .row i {
-    font-size: 2.7rem;
+    font-size: 2.9rem;
   }
 
   .contact .texty {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .contact .lefty .head,
   .contact .lefty .sub-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .contact .cont form ::placeholder {
     padding-left: 0.7rem;
+    font-size: 2rem;
   }
 
   .contact .righty form .button button {
     width: 40%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 </style>

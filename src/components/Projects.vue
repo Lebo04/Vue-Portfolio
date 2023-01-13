@@ -130,8 +130,6 @@ a:hover {
         transform: translateX(-10vh) scale(1);
     }
 }
-
-
 .front {
   padding: 1rem;
   font-size: 1rem;
@@ -184,7 +182,7 @@ a:hover {
   perspective: 30rem;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 420px) {
   a {
     font-size: 1.5rem;
     color: #111;
@@ -212,7 +210,7 @@ a:hover {
     text-transform: lowercase;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 421px) and (max-width: 720px) {
   a {
     font-size: 2rem;
     color: #111;
@@ -234,6 +232,36 @@ a:hover {
   .back {
     width: 14rem;
     height: 18rem;
+    margin-left: 4rem;
+  }
+  
+  .back {
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+  a {
+    font-size: 3rem;
+    color: #111;
+  }
+  a:hover {
+    font-size: 3.5rem;
+  }
+  .title {
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .title::before {
+    width: 13rem;
+  }
+  .card-container,
+  .front,
+  .back {
+    width: 20rem;
+    height: 20rem;
     margin-left: 4rem;
   }
   
