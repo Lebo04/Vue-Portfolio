@@ -173,22 +173,36 @@ section {
   animation-delay: 0.7s;
 }
 
-@media screen and (max-width: 768px) {
-  .social a {
-    font-size: 2rem;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    margin-top: 1.2rem;
-    padding: 1.3rem;
+@media screen and (max-width: 720px) {
+  img {
+    width: 23rem;
+    margin-left: 0rem;
   }
   .social {
-    right: 0.1%;
+    right: 0.01%;
   }
+  
+  .social a {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 4rem;
+    margin-top: 0rem;
+    padding: 1.5rem;
+  }
+  
+  .home {
+    height: 35rem;
+    margin-left: 0rem;
+  }
+  .home .home-cont {
+    margin: 0rem;
+  }
+  
   .home .home-cont .texty {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
   }
+  
   .home .home-cont .delay-1 {
     font-size: 2rem;
     font-weight: 600;
@@ -197,18 +211,65 @@ section {
   .home .home-cont .delay-2 {
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 5rem 0;
+    margin-top: 2rem 0;
   }
   
   .home .home-cont .texty span {
-    color: crimson;
     font-size: 2rem;
   }
-  img {
-    width: 30rem;
+  
+  section {
+    padding: 5rem;
+    padding-bottom: 3rem;
   }
+}
+@media screen and (max-width: 1080px) {
+  img {
+    margin-left: 0rem;
+  }
+  .social {
+    right: 0.01%;
+  }
+  
+  .social a {
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 0rem;
+    padding: 2rem;
+  }
+  
   .home {
-    height: 34.6rem;
+    height: 50rem;
+    margin-left: 0rem;
+  }
+  .home .home-cont {
+    margin: 0rem;
+  }
+  
+  .home .home-cont .texty {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .home .home-cont .delay-1 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  
+  .home .home-cont .delay-2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 2rem 0;
+  }
+  
+  .home .home-cont .texty span {
+    font-size: 4rem;
+  }
+  
+  section {
+    padding: 5rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -259,40 +320,5 @@ section {
     padding-bottom: 3rem;
   }
 }
-@media screen and (max-width: 400px) {
-  img {
-    width: 20rem;
-  }
-  .social {
-    left: 65%;
-  }
-  
-  .social a {
-    font-size: 1.5rem;
-    width: 2rem;
-    height: 2rem;
-    margin-top: 1.5rem;
-    padding: 1rem;
-  }
-  
-  .home {
-    flex-direction: column;
-    height: 65rem;
-    margin-left: 0rem;
-  }
-  
-  .home .home-cont .texty {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-  
-  .home .home-cont .delay-1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-  
-  .home .home-cont .texty span {
-    font-size: 2.5rem;
-  }
-}
+
 </style>

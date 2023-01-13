@@ -134,5 +134,37 @@ export default {};
       font-weight: 600;
     }
   }
+  @media screen and (max-width: 720px) {
+    .social {
+      right: 5%;
+      transform: translateY(20%);
+    }
+    
+    .social a {
+      font-size: 1.5rem;
+    }
+  .about .title {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+    }
+    
+    .about .title::before {
+      width: 13rem;
+    }
+  
+    .about {
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 100vh;
+    }
+    
+    .about p {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
 
 </style>

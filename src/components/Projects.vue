@@ -120,7 +120,17 @@ a:hover {
 
 .card-container {
   margin: 1rem;
+  animation: in 1.5s ease-in;
 }
+@keyframes in {
+    0% {
+        transform: translateX(100vh) scale(0);
+    }
+    100% {
+        transform: translateX(-10vh) scale(1);
+    }
+}
+
 
 .front {
   padding: 1rem;
@@ -200,6 +210,35 @@ a:hover {
   
   .back {
     text-transform: lowercase;
+  }
+}
+@media screen and (max-width: 720px) {
+  a {
+    font-size: 2rem;
+    color: #111;
+  }
+  a:hover {
+    font-size: 2.5rem;
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .title::before {
+    width: 11rem;
+  }
+  .card-container,
+  .front,
+  .back {
+    width: 14rem;
+    height: 18rem;
+    margin-left: 4rem;
+  }
+  
+  .back {
+    text-transform: uppercase;
   }
 }
 </style>

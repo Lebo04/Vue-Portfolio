@@ -356,4 +356,121 @@ input {
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 720px) {
+  .we h2 {
+    font-size: 3.5rem;
+  }
+
+  .we a {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  input {
+    margin-bottom: 1rem;
+  }
+
+  .cont {
+    transform: translateY(0%);
+  }
+
+  .cont .title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  section .title::before {
+    width: 14rem;
+  }
+
+  .contact {
+    margin-left: 0.5rem;
+  }
+
+  .contact .row i {
+    font-size: 1.7rem;
+  }
+
+  .contact .texty {
+    font-size: 2rem;
+  }
+
+  .contact .lefty .head,
+  .contact .lefty .sub-title {
+    font-size: 1.3rem;
+  }
+
+  .contact .cont form ::placeholder {
+    padding-left: 0.7rem;
+  }
+
+  .contact .righty form .button button {
+    width: 30%;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .we h2 {
+    font-size: 4rem;
+  }
+
+  .we a {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+
+  input {
+    margin-bottom: 1rem;
+    width: 23rem;
+    height: 3rem;
+  }
+
+  textarea {
+    width: 23rem;
+    height: 9rem;
+  }
+
+  .cont {
+    transform: translateY(10%);
+  }
+
+  .cont .title {
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  section .title::before {
+    width: 21rem;
+  }
+
+  .contact {
+    margin-left: 2rem;
+  }
+
+  .contact .row i {
+    font-size: 2.7rem;
+  }
+
+  .contact .texty {
+    font-size: 3rem;
+  }
+
+  .contact .lefty .head,
+  .contact .lefty .sub-title {
+    font-size: 2rem;
+  }
+
+  .contact .cont form ::placeholder {
+    padding-left: 0.7rem;
+  }
+
+  .contact .righty form .button button {
+    width: 40%;
+    font-size: 1.2rem;
+  }
+}
 </style>

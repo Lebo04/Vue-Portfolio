@@ -7,7 +7,7 @@
     <h2 class="title">Testimonials</h2>
     <div class="container-sm text-center">
       <div class="row">
-        <div class="col-md-6 g-3" v-for="item in testimonials" :key="item">
+        <div class="col-md-6 g-3" v-for="item in testimonials">
           <div class="card-container">
             <div class="front">
               <img :src="item.image" width="300" height="300" alt="" />
@@ -114,6 +114,15 @@ export default {
 
 .card-container {
   margin: 5rem;
+  animation: in 1.5s ease-in;
+}
+@keyframes in {
+    0% {
+        transform: translateX(100vh) scale(0);
+    }
+    100% {
+        transform: translateX(-10vh) scale(1);
+    }
 }
 
 .front {

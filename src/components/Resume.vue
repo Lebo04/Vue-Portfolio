@@ -30,19 +30,10 @@
       </div>
       <div class="education">
         <div class="timeline">
-          <div class="containery lefty" v-for="item in education1">
+          <div class="containery lefty" v-for="item in education">
             <div class="content">
               <h2>{{ item.year }}</h2>
               <img :src="item.image" width="100" alt="" />
-              <p>
-                {{ item.place }}
-              </p>
-            </div>
-          </div>
-          <div class="containery righty" v-for="item in education2">
-            <div class="content">
-              <h2>{{ item.year }}</h2>
-              <!-- <img :src="item.image" width="150" alt="" /> -->
               <p>
                 {{ item.place }}
               </p>
@@ -83,7 +74,7 @@ export default {
           rate: "10%",
         },
       ],
-      education1: [
+      education: [
         {
           image: "https://i.postimg.cc/sDmvMWSP/Logo-Life-Choices.jpg",
           year: "2022",
@@ -150,7 +141,7 @@ export default {
   left: 50%;
 }
 .skills-cont .colu {
-  width: calc(50% - 2rem);
+  width: calc(70% - 2rem);
 }
 .skills-cont .lefty .texty {
   font-size: 2.3rem;
@@ -320,6 +311,151 @@ export default {
   .containery {
     padding: 1rem 1rem;
     width: 80%;
+  }
+  
+  .content {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .resume {
+    flex-direction: column;
+  }
+  .title {
+    padding-top: 1rem;
+  }
+  .title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+  .title::before {
+    width: 23rem;
+  }
+  .skills-cont .colu {
+    width: calc(90% - 1rem);
+  }
+  .skills-cont .lefty .texty {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .skills-cont .lefty a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+  }
+  .skills-cont .lefty a:hover {
+    color: crimson;
+    background: none;
+  }
+  .skills-cont .righty .info {
+    margin-bottom: 0rem;
+  }
+  .skills-cont .righty span {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+  }
+  .skills-cont .righty i {
+    padding-right: 2rem;
+    font-size: 4rem;
+  }
+  
+  .skills {
+    margin-left: 1.5rem;
+  }
+  
+  .timeline {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    position: relative;
+  }
+  
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 0.3rem;
+    left: 80.5%;
+    margin-left: -0.01rem;
+    margin-top: 5rem;
+  }
+  
+  .containery {
+    padding: 1rem 1rem;
+    width: 80%;
+  }
+  
+  .content {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+  }
+  .title::before {
+    width: 32rem;
+  }
+  .skills-cont .colu {
+    width: calc(80% - 3rem);
+  }
+  .skills-cont .lefty .texty {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .skills-cont .righty .info {
+    margin-bottom: 0rem;
+  }
+  .skills-cont .righty span {
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .skills-cont .righty i {
+    padding-right: 1rem;
+    font-size: 4rem;
+  }
+  
+  .skills {
+    margin-left: 1rem;
+  }
+
+   p {
+    font-size: 1.5rem;
+  }
+  
+  .timeline {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    position: relative;
+  }
+  
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 0.3rem;
+    left: 90.5%;
+    margin-left: -0.01rem;
+    margin-top: 5rem;
+  }
+  
+  .containery {
+    padding: 1rem 1rem;
+    width: 90%;
   }
   
   .content {
