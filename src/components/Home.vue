@@ -173,9 +173,9 @@ section {
   animation-delay: 0.7s;
 }
 
-@media screen and (min-width: 400px) and (max-width: 720px) {
+@media screen and (min-width: 421px) and (max-width: 720px) {
   img {
-    width: 23rem;
+    width: 15rem;
     margin-left: 0rem;
   }
   .social {
@@ -192,19 +192,20 @@ section {
   
   .home {
     height: 35rem;
-    margin-left: 0rem;
+    margin-left: 5rem;
+    justify-content: right;
   }
   .home .home-cont {
     margin: 0rem;
   }
   
   .home .home-cont .texty {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
   }
   
   .home .home-cont .delay-1 {
-    font-size: 2rem;
+    font-size:2rem;
     font-weight: 600;
   }
   
@@ -225,7 +226,7 @@ section {
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 420px) {
   img {
     width: 15rem;
   }
