@@ -33,8 +33,12 @@ nav a {
   font-weight: bold;
   font-size: 1.4rem;
   padding-right: 2rem;
-  color: #2c3e50;
+  color: #111;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: crimson;
 }
 
 nav a.router-link-exact-active {

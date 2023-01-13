@@ -320,5 +320,51 @@ section {
     padding-bottom: 3rem;
   }
 }
+@media screen and (max-width: 1092px) {
+  img {
+    width: 50rem;
+  }
+  .social {
+    right: 1%;
+  }
+  
+  .social a {
+    font-size: 3rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    padding: 4rem;
+  }
+  
+  .home {
+    height: 60rem;
+    margin-left: 0rem;
+  }
+  
+  .home .home-cont .texty {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  
+  .home .home-cont .delay-1 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  
+  .home .home-cont .delay-2 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 2rem 0;
+  }
+  
+  .home .home-cont .texty span {
+    font-size: 4rem;
+  }
+  
+  section {
+    padding: 5rem;
+    padding-bottom: 3rem;
+  }
+}
 
 </style>
